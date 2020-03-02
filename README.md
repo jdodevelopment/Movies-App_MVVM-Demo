@@ -1,4 +1,4 @@
-# Arquitectura MVVC
+# Arquitectura MVVM
 
 ## Capas de la aplicación
 
