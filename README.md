@@ -1,16 +1,5 @@
 # Arquitectura MVVM
 
-## Capas de la aplicación
-
-### Modelo
-`Movie.java (capa negocio), MoviesResponse.java, MovieDatabase.java (capa persistencia), MovieDao.java, MovieService.java (capa de red), MovieRepository.java (capa repositorio)`
-
-### Vista
-`MainActivity.java, MovieDetailActivity.java, PopularFragment.java, TopRatedFragment.java, UpcomingFragment.java, MovieAdapter.java`
-
-### VistaModelo
-`PopularFragmentViewModel.java, TopRatedFragmentViewModel.java, UpcomingFragmentViewModel.java`
-
 ## Principio de responsabilidad única
 
 Es un principio de programación que establece que cada módulo o clase debe tener responsabilidad sobre una sola parte de la funcionalidad proporcionada por el software, y esa responsabilidad debe estar completamente encapsulada. 
